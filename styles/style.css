@@ -1,3 +1,30 @@
-p {
-  color: red;
+/* Global Styles
+------------------------------*/
+body {
+  background: lightblue;
+}
+a {
+  color: #ff3c00
+}
+a:hover {
+  text-decoration: none;
+}
+/* Header and Footer
+------------------------------*/
+header, footer {
+  background: #0a1c8f;
+  color: #5bf7fc;
+}
+header h1, header h2 {
+  color:  #e6fcf8;
+}
+/* Work Experience
+------------------------------*/
+.work {
+  background: #5bf7fc;
+}
+/* Education
+------------------------------*/
+.education {
+  background: #e6fcf8;
 }
