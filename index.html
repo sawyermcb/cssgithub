@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://fonts.googleapis.com/css?family=Caveat|Open+Sans:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,31 +10,40 @@
 <body>
     <!-- // Intro -->
     <header>
-        <img src="images/christina-truong.png" alt="Sawyer">
-        <h1>Sawyer McBrayer</h1>
-        <h2>Lift Operator</h2>
-        <p>I like to snowboard and do snowboarding things! I run the lifts at Telluride Ski Resort in Telluride Colorado! If you ski on the mountain you will surely see me at least once!</p>
+      <div class="content-wrap">
+        <img class="profile-img col-narrow" src="images/christina-truong.png" alt="Sawyer">
+        <div class="col-wide">
+          <h1>Sawyer McBrayer</h1>
+          <h2>Lift Operator</h2>
+          <p>I like to snowboard and do snowboarding things! I run the lifts at Telluride Ski Resort in Telluride Colorado! If you ski on the mountain you will surely see me at least once! I like to snowboard and do snowboarding things! I run the lifts at Telluride Ski Resort in Telluride Colorado! If you ski on the mountain you will surely see me at least once!</p>
+        </div>
+      </div>
     </header>
 
     <main>
         <!-- // Work Experience -->
         <section class="work">
+          <div class="content-wrap">
             <h2>Work Experience</h2>
 
             <!-- Job Details: copy this whole block to add more jobs -->
-            <h3>Lift Operator</h3>
-            <p>Telski</p>
-            <p>9/1/2018</p>
-
+            <div class="col-narrow">
+              <h3>Lift Operator</h3>
+              <p>Telski</p>
+              <p>9/1/2018</p>
+            </div>
             <!-- Add as many paragraphs as you need. -->
-            <p>Inspecting and operating lifts from open to close at resort. Ensuring safe operation and use for customers and employees. Maintining entrance and exit ramps of chairs and general area maintenance.</p>
+            <div class="col-wide">
+              <p>Inspecting and operating lifts from open to close at resort. Ensuring safe operation and use for customers and employees. Maintining entrance and exit ramps of chairs and general area maintenance.</p>
+            </div>
             <!-- end of Job Details block. -->
-
+          </div>
         </section>
 
 
         <!-- // Education -->
         <section class="education">
+          <div class="content-wrap">
             <h2>Masters</h2>
 
             <!-- School details: copy this whole block to add more schools. -->
@@ -43,15 +53,17 @@
             <!-- Add as many paragraphs as you need. -->
             <p>Through many trials and tribulations, Sawyer McBrayer has achieved proficiency in life skills and has been awarded title of "Professional"</p>
             <!-- End of school details. -->
+          </div>
         </section>
     </main>
 
     <!-- // Footer & contact info -->
     <footer>
+      <div class="content-wrap">
         <h2>Let's Keep in Touch!</h2>
 
         <!-- Social media and contact links. Add or remove any networks. -->
-        <div>
+        <div class="contact-info">
             <a href="mailto:sawyer@gmail.com">sawyer@gmail.com</a>
             <a href="http://heythere.com" target="_blank">My Website!</a>
             <a href="#" target="_blank">Twitter</a>
@@ -60,6 +72,7 @@
         </div>
 
         <p>Copyright 2017 by Sawyer McBrayer</p>
+      </div>
     </footer>
-</body>
+  </body>
 </html>

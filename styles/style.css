@@ -1,7 +1,40 @@
 /* Global Styles
 ------------------------------*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 body {
+  margin: 0;
   background: lightblue;
+  font-family: 'Open Sans', sans-serif;
+}
+.content-wrap {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 50px;
+  overflow: auto;
+}
+col-wide{
+  width: 70%;
+  float: left;
+}
+col-narrow{
+  width: 30%;
+  float: left;
+}
+h1 , h2 {
+  font-family: 'Caveat', cursive;
+  font-weight: 400;
+}
+h1 {
+  font-size: 80px;
+}
+h2 {
+  font-size: 40px;
+  margin-top: 0;
 }
 a {
   color: #ff3c00
@@ -12,11 +45,23 @@ a:hover {
 /* Header and Footer
 ------------------------------*/
 header, footer {
-  background: #0a1c8f;
+  background: #47b0c5;
   color: #5bf7fc;
 }
 header h1, header h2 {
   color:  #e6fcf8;
+  margin: 0;
+}
+footer {
+  text-align: center;
+}
+.contact-info a {
+  padding: 40px;
+  margin: 10px;
+  display: inline-block;
+}
+.profile-img {
+  border-radius: 50%;
 }
 /* Work Experience
 ------------------------------*/
