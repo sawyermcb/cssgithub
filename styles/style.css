@@ -1,11 +1,13 @@
 /* Global Styles
 ------------------------------*/
+/*
 html {
   box-sizing: border-box;
 }
 *, *:before, *:after {
   box-sizing: inherit;
 }
+*/
 body {
   margin: 0;
   background: lightblue;
@@ -17,6 +19,7 @@ body {
   padding: 50px;
   overflow: auto;
 }
+/*
 col-wide{
   width: 70%;
   float: left;
@@ -25,6 +28,7 @@ col-narrow{
   width: 30%;
   float: left;
 }
+*/
 h1 , h2 {
   font-family: 'Caveat', cursive;
   font-weight: 400;
@@ -41,6 +45,14 @@ a {
 }
 a:hover {
   text-decoration: none;
+}
+.flare {
+    color: #FFF;
+    text-shadow: 0 0 150px #FFF, 0 0 60px #FFF, 0 0 10px #FFF;
+}
+.flare2 {
+    color: #346eeb;
+    text-shadow: 0 0 150px #346eeb, 0 0 60px #346eeb, 0 0 10px #346eeb;
 }
 /* Header and Footer
 ------------------------------*/
@@ -62,6 +74,8 @@ footer {
 }
 .profile-img {
   border-radius: 50%;
+  float: left;
+  margin-right: 20px;
 }
 /* Work Experience
 ------------------------------*/
@@ -72,4 +86,7 @@ footer {
 ------------------------------*/
 .education {
   background: #e6fcf8;
+}
+.vert{
+  writing-mode: vertical-rl;
 }
