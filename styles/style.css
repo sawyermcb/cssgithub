@@ -41,10 +41,13 @@ h2 {
   margin-top: 0;
 }
 a {
-  color: #ff3c00
+  color: #346eeb;
+  text-shadow: 0 0 150px #346eeb, 0 0 60px #346eeb, 0 0 10px #346eeb;
 }
 a:hover {
   text-decoration: none;
+  color: #FFF;
+  text-shadow: 0 0 150px #FFF, 0 0 60px #FFF, 0 0 10px #FFF;
 }
 .flare {
     color: #FFF;
@@ -54,11 +57,67 @@ a:hover {
     color: #346eeb;
     text-shadow: 0 0 150px #346eeb, 0 0 60px #346eeb, 0 0 10px #346eeb;
 }
+/*Navigation
+-----------------------------*/
+nav ul {
+  text-align: left;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+nav a {
+  text-decoration: none;
+}
+ul li {
+  font: bold 15px/18px sans-serif;
+  display: inline-block;
+  position: relative;
+  padding: 15px 20px;
+  cursor: pointer;
+}
+
+/*ul li:hover {
+  color: #fff;
+}
+*/
+
+ul li ul {
+  padding: 0;
+  position: absolute;
+  top: 48px;
+  left: -10000px;
+  width: 150px;
+}
+ul li ul li {
+  background: #2b515e;
+  display: block;
+  color: #fff;
+  text-align: center;
+  border: 1px solid white;
+}
+ul li ul li a {
+  color:white;
+}
+
+ul li ul li:hover {
+  background: #6dd4fc
+}
+ul li:hover ul {
+  display: block;
+  left: 0px;
+  border: 1px solid black;
+}
+
+
+
+
+
+
 /* Header and Footer
 ------------------------------*/
 header, footer {
   background: #47b0c5;
-  color: #5bf7fc;
+  color: white;
 }
 header h1, header h2 {
   color:  #e6fcf8;
@@ -71,9 +130,11 @@ footer {
   padding: 40px;
   margin: 10px;
   display: inline-block;
+  text-decoration: none;
 }
 .profile-img {
-  border-radius: 50%;
+  border-radius: 25%;
+  border: 2px solid white;
   float: left;
   margin-right: 20px;
 }
