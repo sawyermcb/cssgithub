@@ -98,7 +98,6 @@ ul li ul li {
 ul li ul li a {
   color:white;
 }
-
 ul li ul li:hover {
   background: #6dd4fc
 }
@@ -107,12 +106,6 @@ ul li:hover ul {
   left: 0px;
   border: 1px solid black;
 }
-
-
-
-
-
-
 /* Header and Footer
 ------------------------------*/
 header, footer {
@@ -150,4 +143,34 @@ footer {
 }
 .vert {
   writing-mode: vertical-rl;
+}
+/* RESPONSIVE! */
+@media (max-width: 1000px) {
+  .content-wrap {
+    text-align: center;
+  }
+  li {
+    text-transform: uppercase;
+  }
+  body {
+    font-weight: 800;
+  }
+  .flare {
+    font-size: 4.5em;
+  }
+  .flare2 {
+    font-size: 4.5em;
+  }
+  .profile-img {
+    margin-left: 35px;
+    border-radius: 50%;
+    transition: margin 3s, border-radius 5s;
+
+  }
+  h1 {
+    clear: both;
+  }
+  .col-wide p {
+    clear: both;
+  }
 }
